@@ -8,6 +8,10 @@
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
+body {
+	background: linear-gradient(to right, #ffffff ,#c7ebff);
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
 	-webkit-appearance: none;
@@ -192,19 +196,8 @@ section
 	flex-direction: column;
 }
 
-.about {
-	background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
-	background-size: cover; 
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
 .project {
 	padding: 100px 50px;
-	background: url(img/bg-template.jpg);
-	background-size: cover; 
-	background-position: center center;
-	background-repeat: no-repeat;
 }
 .project .content {
     width: 100%;
@@ -217,9 +210,10 @@ section
 .project .content ul li {
 	list-style: none;
     background: rgb(211, 211, 211);
-    padding: 8px 20px;
+    padding: 6px 15px;
     margin: 5px;
     letter-spacing: 1px;
+	font-size: 14px;
 	border-radius: 3px;
 	transition: .3s;
     cursor: pointer;
@@ -301,6 +295,7 @@ section
 	background-size: cover; 
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .white .titleText,
 .white p
@@ -464,8 +459,8 @@ section
 }
 .tab {
     background-color: #fff;
-    width: 300px;
-	height: 70vh auto;
+    width: 350px;
+	height: 600px;
     padding: 40px 32px;
     margin: 20px;
     border-radius: 10px;
@@ -497,14 +492,18 @@ section
     font-size: 16px;
 }
 .price .idr {
-	display: flex;
-	margin: 4px 42px;
-	position: absolute;
 	font-weight: 500;
+	margin-right: 10px;
 }
 .price .startFrom {
 	font-size: 12px;
 	font-weight: 500;
+}
+.price-from {
+	display: flex;
+	justify-content: center;
+	margin-right: 25px;
+	margin-top: 5px;
 }
 .hr {
     height: 7px;
@@ -553,14 +552,6 @@ section
 }
 
 
-.faq {
-	/* background: linear-gradient(to right bottom, #daf3f8, #a4eeff); */
-	background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
-	background-size: cover; 
-	background-position: center center;
-	background-repeat: no-repeat;
-
-}
 .accordian{
 	max-width: 90%;
 	margin: 10px auto;
@@ -580,7 +571,7 @@ section
 }
 .accordian .card .card-header {
 	position: relative;
-	padding: 13px 15px;
+	padding: 18px 15px;
 	background: #31A0DF;
 	cursor: pointer;
 	border-radius: 3px;
@@ -588,20 +579,20 @@ section
 .accordian .card .card-header span{
 	position: absolute;
 	right:20px;
-	top: 10px;
+	top: 15px;
 	height:25px;
 	width:25px;
 	color:#31A0DF;
 	background-color: #ffffff;
 	border-radius:50%;
-	text-align: center;
-	font-size: 13px;
-	padding-top: 6px;
-	padding-left: 1px;
+	font-size: 14px;
+	padding-top: 6.5px;
+	padding-left: 6.5px;
 }
 
 .accordian .card .card-body{
 	padding:20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .accordian .card .card-body{
 	display: none;
@@ -1040,6 +1031,7 @@ form .buttonSubmit {
 	}
 	.tab {
 		width: 100%;
+		height: 100%;
 	}
 
 	.accordian {
@@ -1057,7 +1049,7 @@ form .buttonSubmit {
 	}
 	.accordian .card .card-header span {
 		right: 15px;
-		padding-left: 0;
+		padding-left: 6px;
 		top: 0;
 		right: 0;
 		position: relative;
