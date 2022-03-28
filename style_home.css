@@ -991,7 +991,7 @@ form .buttonSubmit {
 	}
 	section
 	{
-		padding: 20px 10px;
+		padding: 55px 10px;
 	}
 	.banner .content h2
 	{
@@ -1052,7 +1052,7 @@ form .buttonSubmit {
     }
     .why-row {
         justify-content: center;
-        margin: 30px 0;
+        margin: 10px 0;
         flex-direction: column;
     }
     .why-row .why-col {
