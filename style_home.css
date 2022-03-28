@@ -295,7 +295,6 @@ section
 	background-size: cover; 
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 .white .titleText,
 .white p
@@ -471,6 +470,10 @@ section
 .tab:hover {
 	transform: translateY(-6px);
 }
+.tab-list {
+	display: flex;
+	justify-content: center;
+}
 .name h1 {
     font-size: 20px;
     letter-spacing: 2px;
@@ -481,6 +484,7 @@ section
 .price h2 {
     font-size: 40px;
 	font-weight: 700;
+	margin: 0;
 }
 .price h3 {
 	font-size: 28px;
@@ -503,7 +507,7 @@ section
 	display: flex;
 	justify-content: center;
 	margin-right: 25px;
-	margin-top: 5px;
+	margin-top: 2px;
 }
 .hr {
     height: 7px;
@@ -1040,6 +1044,7 @@ form .buttonSubmit {
 	.accordian .card .card-header {
 		display: flex;
 		align-items: center;
+		padding: 14px 15px;
 	}
 	.accordian .card .card-header h3 {
 		font-size: 14px;
@@ -1104,7 +1109,7 @@ form .buttonSubmit {
 		padding-left: 2rem;
 	}
 	.project .content ul li {
-		padding: 5px 15px;
+		padding: 5px 14px;
 	}
 	.template .itemBox {
 		width: 400px;
