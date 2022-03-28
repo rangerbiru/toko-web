@@ -206,9 +206,20 @@ section {
     padding-top: 20px;
 }
 
+.source a {
+    text-decoration: none;
+    color: #aeaeae;
+    transition: .3s;
+    font-size: 14px;
+}
+.source a:hover {
+    color: #31A0DF;
+}
+
 .project .content ul {
     display: flex;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 .project .content ul li {
@@ -226,7 +237,6 @@ section {
 .project .content ul li:hover {
     background: #31A0DF;
     color: #fff;
-    letter-spacing: 2px;
 }
 
 .project .content ul li.active {
@@ -280,6 +290,17 @@ section {
     border: 1px solid #fff;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.code-template {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    right: 0;
+    font-size: 14px;
+    padding: 5px;
+    background: #31A0DF;
+    border-radius: 0px 0px 0px 10px;
 }
 
 .template .itemBox img:hover~.live-demo,
