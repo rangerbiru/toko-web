@@ -48,10 +48,9 @@
 		<div class="menuToggle" onclick="toggleMenu();"></div>
 		<ul class="navigation">
 			<li><a href="#home" onclick="toggleMenu();">Home</a></li>
-			<li><a href="#about" onclick="toggleMenu();">Tentang Kami</a></li>
 			<!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
-			<li><a href="#project" onclick="toggleMenu();">Project</a></li>
-			<li><a href="#package" onclick="toggleMenu();">Package</a></li>
+			<li><a href="#project" onclick="toggleMenu();">Template</a></li>
+			<li><a href="#package" onclick="toggleMenu();">Price</a></li>
 			<li><a href="#faq" onclick="toggleMenu();">FAQ</a></li>
 			<!-- <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li> -->
 		</ul>
@@ -73,7 +72,7 @@
 						<h2>Miliki Website Dengan Tampilan Menarik Dan Elegant</h2>
 						<p>Kami dapat memberikan experience lebih untuk website anda dengan tampilan serta antarmuka
 							yang nyaman bagi anda serta pengunjung website anda</p>
-						<a href="#project" class="btnKu">Cek Project Kami</a>
+						<a href="#project" class="btnKu">Cek Template Website</a>
 					</div>
 				</section>
 			</div>
@@ -94,7 +93,7 @@
 					<div class="content">
 						<h2>Bingung Mau Buat Website Seperti Apa? Tenang...</h2>
 						<p>Kami menyediakan 100+ template yang dapat anda gunakan sebagai rancangan website anda</p>
-						<a href="#project" class="btnKu">Cek Template Kami</a>
+						<a href="#project" class="btnKu">Cek Template Website</a>
 					</div>
 				</section>
 			</div>
@@ -110,7 +109,7 @@
 	</div>
 
 	<!----------------Page About------------------>
-	<section class="about" id="about">
+	<!-- <section class="about" id="about">
 		<div id="details" class="basic-1">
 			<div class="container">
 				<div class="title" data-aos="fade-in" data-aos-duration="1000">
@@ -134,12 +133,38 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+
+	<section class="why-website">
+		<div class="title" data-aos="fade-down" data-aos-duration="1000">
+			<h2 class="titleText"><span>M</span>engapa Harus Memiliki Website ?</h2>
+		</div>
+		<div class="why-row">
+			<div class="why-col">
+				<!-- <i class="fas fa-desktop"></i> -->
+				<img src="img/illustrator/information.jpg" style="width: 230px;">
+				<h3>Menampilkan Informasi Dengan Lengkap</h3>
+				<p>Memudahkan anda untuk memperkenalkan profile atau bisnis anda</p>
+			</div>
+			<div class="why-col">
+				<img src="img/illustrator/ecommerce.jpg">
+				<!-- <i class="fas fa-wifi"></i> -->
+				<h3>Menjangkau Pasar Yang Lebih Luas</h3>
+				<p>Anda akan lebih mudah dikenal oleh pengguna internet hingga ke seluruh dunia</p>
+			</div>
+			<div class="why-col">
+				<!-- <i class="fas fa-mobile-alt"></i> -->
+				<img src="img/illustrator/credibility.jpg">
+				<h3>Meningkatkan Kredibilitas / Kepercayaan Bisnis</h3>
+				<p>Konsumen atau pengunjung akan lebih mudah mempercayai profile atau bisnis anda</p>
+			</div>
+		</div>
 	</section>
 
 	<!----------------Page Project------------------>
 	<section class="project" id="project">
-		<div class="title">
-			<h2 class="titleText"><span>P</span>roject Kami</h2>
+		<div class="title" data-aos="fade-in" data-aos-duration="1000">
+			<h2 class="titleText"><span>T</span>emplate Website</h2>
 			<p>Anda dapat gunakan template website ini untuk menentukan website yang anda inginkan</p>
 		</div>
 
@@ -322,7 +347,7 @@
 
 	<!----------------Page FAQ------------------>
 	<section class="faq" id="faq">
-		<div class="title">
+		<div class="title" data-aos="fade-down" data-aos-duration="1000">
 			<h2 class="titleText"><span>F</span>AQ</h2>
 			<p>Pertanyaan dan jawaban dibawah ini mungkin dapat menjawab pertanyaan anda</p>
 		</div>
@@ -579,6 +604,7 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
 		const tabContainer = document.querySelectorAll('.tab');
+		const whyCol = document.querySelectorAll('.why-col');
 
 		tabContainer.forEach((package, i) => {
 			package.dataset.aos = 'fade-up';
