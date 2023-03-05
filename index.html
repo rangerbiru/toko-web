@@ -1,111 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Buat Website Mu Disini | Revzy</title>
-    <meta name="description" content="Ingin punya website dengan harga murah dan berkualitas? Yukk cek revzy sekarang">
-    <meta name="keywords"
-        content="website, buat website, bikin website, umkm, design website, buat website umkm, website jualan, website simple, cara buat website">
-    <meta name="author" content="Ranger Biru & Fanabih">
+    <meta
+      name="description"
+      content="Revzy adalah sebuah website yang didalamnya terdapat sekumpulan anak muda yang mencoba untuk berinovasi menciptakan sebuah peluang usaha dalam bidang jasa pembuatan serta pengelolaan pada website. Kami akan memberikan experience yang menarik dengan memberikan sentuhan responsive terhadap tampilan website anda"
+    />
+    <meta
+      name="keywords"
+      content="website, buat website, bikin website, umkm, design website, buat website umkm, website jualan, website simple, cara buat website"
+    />
+    <meta name="author" content="Arrafi Septiawan & Ahmad Fikri" />
+    
+    <!-- OG -->
+    <meta property="og:type" content="e-commerce" />
+    <meta property="og:title" content="Buat Website Mu Disini | Revzy" />
+    <meta
+      property="og:description"
+      content="Revzy adalah sebuah website yang didalamnya terdapat sekumpulan anak muda yang mencoba untuk berinovasi menciptakan sebuah peluang usaha dalam bidang jasa pembuatan serta pengelolaan pada website. Kami akan memberikan experience yang menarik dengan memberikan sentuhan responsive terhadap tampilan website anda"
+    />
+    <meta
+      property="og:url"
+      content="http://revzy.site/"
+    />
+    <meta
+      property="og:image"
+      content="%PUBLIC_URL%/favicon.ico"
+    />
     <!--AOS--->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--CSS Ane--->
-    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="style_home.css" />
     <!--Favicon Revzy-->
-    <link rel="shortcut icon" href="img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" sizes="180x180">
-    <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" sizes="32x32">
-    <link rel="shortcut icon" href="img/favicon/favicon-16x16.png" type="image/x-icon" sizes="16x16">
-    <link rel="manifest" href="img/favicon/site.webmanifest">
-    <link rel="shortcut icon" href="img/favicon/android-chrome-512x512.png" type="image/x-icon" sizes="512x512">
-    <link rel="shortcut icon" href="img/favicon/android-chrome-192x192.png" type="image/x-icon" sizes="192x192">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link
+      rel="icon"
+      href="%PUBLIC_URL%/favicon-32x32.png"
+      type="image/x-icon"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="%PUBLIC_URL%/favicon-16x16.png"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+    <link
+      rel="icon"
+      href="%PUBLIC_URL%/android-chrome-512x512.png"
+      type="image/x-icon"
+      sizes="512x512"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="%PUBLIC_URL%/android-chrome-192x192.png"
+      type="image/x-icon"
+      sizes="192x192"
+    />
     <!--Source Bootstrap-->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--CDN Font Awesome 5.15--->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
     <!--CDN Font Awesome 6.0-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!----------------Header------------------>
     <header>
-        <a href="#home" class="logo" style="font-family: 'Permanent Marker', cursive;"><span
-                style="margin-right: 2px;">R</span>e<span>V</span>zy</a>
-        <div class="menuToggle" onclick="toggleMenu();"></div>
-        <ul class="navigation">
-            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-            <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
-            <li><a href="#project" onclick="toggleMenu();">Template</a></li>
-            <li><a href="#package" onclick="toggleMenu();">Price</a></li>
-            <li><a href="#faq" onclick="toggleMenu();">FAQ</a></li>
-            <!-- <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li> -->
-        </ul>
+      <a
+        href="#home"
+        class="logo"
+        style="font-family: 'Permanent Marker', cursive"
+        ><span style="margin-right: 2px">R</span>e<span>V</span>zy</a
+      >
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <!-- <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li> -->
+        <li><a href="#project" onclick="toggleMenu();">Template</a></li>
+        <li><a href="#package" onclick="toggleMenu();">Price</a></li>
+        <li><a href="#faq" onclick="toggleMenu();">FAQ</a></li>
+        <!-- <li><a href="#contact" onclick="toggleMenu();">Kontak</a></li> -->
+      </ul>
     </header>
 
     <!----------------Page Home------------------>
     <div id="home" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#home" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#home"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#home"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <section
+            class="banner"
+            id="banner"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.527),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(img/bg-web-fix.jpg);
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="content">
+              <h2>Miliki Website Dengan Tampilan Menarik Dan Elegant</h2>
+              <p>
+                Kami dapat memberikan experience lebih untuk website anda dengan
+                tampilan serta antarmuka yang nyaman bagi anda serta pengunjung
+                website anda
+              </p>
+              <a href="#project" class="btnKu">Cek Template Website</a>
+            </div>
+          </section>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <section class="banner" id="banner"
-                    style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(img/bg-web-fix.jpg); background-size: cover; background-position: center center;background-repeat: no-repeat;">
-                    <div class="content">
-                        <h2>Miliki Website Dengan Tampilan Menarik Dan Elegant</h2>
-                        <p>Kami dapat memberikan experience lebih untuk website anda dengan tampilan serta antarmuka
-                            yang nyaman bagi anda serta pengunjung website anda</p>
-                        <a href="#project" class="btnKu">Cek Template Website</a>
-                    </div>
-                </section>
+        <div class="carousel-item">
+          <section
+            class="banner"
+            id="banner"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.527),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(img/bg-Give.jpg);
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="content">
+              <h2>Buat Website Cukup Bayar Seikhlasnya ? Seriusan ?</h2>
+              <p>
+                Yaapp, betul sekali. Anda dapat memesan jasa pembuatan website
+                pada kami dengan nominal pembayaran seikhlasnya saja (S&K)
+              </p>
+              <a href="#package" class="btnKu">Lihat Paketnya Yukk</a>
             </div>
-            <div class="carousel-item ">
-                <section class="banner" id="banner"
-                    style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(img/bg-Give.jpg); background-size: cover; background-position: center center;background-repeat: no-repeat;">
-                    <div class="content">
-                        <h2>Buat Website Cukup Bayar Seikhlasnya ? Seriusan ?</h2>
-                        <p>Yaapp, betul sekali. Anda dapat memesan jasa pembuatan website pada kami dengan nominal
-                            pembayaran seikhlasnya saja (S&K)</p>
-                        <a href="#package" class="btnKu">Lihat Paketnya Yukk</a>
-                    </div>
-                </section>
-            </div>
-            <div class="carousel-item">
-                <section class="banner" id="banner"
-                    style="background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(img/bg-slide3.jpg); background-size: cover; background-position: center center;background-repeat: no-repeat;">
-                    <div class="content">
-                        <h2>Bingung Mau Buat Website Seperti Apa? Tenang...</h2>
-                        <p>Kami menyediakan 100+ template yang dapat anda gunakan sebagai rancangan website anda</p>
-                        <a href="#project" class="btnKu">Cek Template Website</a>
-                    </div>
-                </section>
-            </div>
+          </section>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+          <section
+            class="banner"
+            id="banner"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.527),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url(img/bg-slide3.jpg);
+              background-size: cover;
+              background-position: center center;
+              background-repeat: no-repeat;
+            "
+          >
+            <div class="content">
+              <h2>Bingung Mau Buat Website Seperti Apa? Tenang...</h2>
+              <p>
+                Kami menyediakan 100+ template yang dapat anda gunakan sebagai
+                rancangan website anda
+              </p>
+              <a href="#project" class="btnKu">Cek Template Website</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#home"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#home"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
 
     <!----------------Page About------------------>
@@ -136,167 +269,208 @@
 	</section> -->
 
     <section class="why-website">
-        <div class="title" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="titleText"><span>M</span>engapa Harus Memiliki Website ?</h2>
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="titleText"><span>M</span>engapa Harus Memiliki Website ?</h2>
+      </div>
+      <div class="why-row">
+        <div class="why-col">
+          <!-- <i class="fas fa-desktop"></i> -->
+          <img src="img/illustrator/information.jpg" style="width: 230px" />
+          <h3>Menampilkan Informasi Dengan Lengkap</h3>
+          <p>Memudahkan anda untuk memperkenalkan profile atau bisnis anda</p>
         </div>
-        <div class="why-row">
-            <div class="why-col">
-                <!-- <i class="fas fa-desktop"></i> -->
-                <img src="img/illustrator/information.jpg" style="width: 230px;">
-                <h3>Menampilkan Informasi Dengan Lengkap</h3>
-                <p>Memudahkan anda untuk memperkenalkan profile atau bisnis anda</p>
-            </div>
-            <div class="why-col">
-                <img src="img/illustrator/ecommerce.jpg">
-                <!-- <i class="fas fa-wifi"></i> -->
-                <h3>Menjangkau Pasar Yang Lebih Luas</h3>
-                <p>Anda akan lebih mudah dikenal oleh pengguna internet hingga ke seluruh dunia</p>
-            </div>
-            <div class="why-col">
-                <!-- <i class="fas fa-mobile-alt"></i> -->
-                <img src="img/illustrator/credibility.jpg">
-                <h3>Meningkatkan Kredibilitas / Kepercayaan Bisnis</h3>
-                <p>Konsumen atau pengunjung akan lebih mudah mempercayai profile atau bisnis anda</p>
-            </div>
+        <div class="why-col">
+          <img src="img/illustrator/ecommerce.jpg" />
+          <!-- <i class="fas fa-wifi"></i> -->
+          <h3>Menjangkau Pasar Yang Lebih Luas</h3>
+          <p>
+            Anda akan lebih mudah dikenal oleh pengguna internet hingga ke
+            seluruh dunia
+          </p>
         </div>
+        <div class="why-col">
+          <!-- <i class="fas fa-mobile-alt"></i> -->
+          <img src="img/illustrator/credibility.jpg" />
+          <h3>Meningkatkan Kredibilitas / Kepercayaan Bisnis</h3>
+          <p>
+            Konsumen atau pengunjung akan lebih mudah mempercayai profile atau
+            bisnis anda
+          </p>
+        </div>
+      </div>
     </section>
 
     <!----------------Page Project------------------>
     <section class="project" id="project">
-        <div class="title" data-aos="fade-in" data-aos-duration="1000">
-            <h2 class="titleText"><span>T</span>emplate Website</h2>
-            <p>Anda dapat gunakan template website ini untuk menentukan website yang anda inginkan</p>
-            <i><span class="source"><a href="https://www.free-css.com/" target="blank">(Source Templates From :
-                        free-css.com)</a></span></i>
-        </div>
+      <div class="title" data-aos="fade-in" data-aos-duration="1000">
+        <h2 class="titleText"><span>T</span>emplate Website</h2>
+        <p>
+          Anda dapat gunakan template website ini untuk menentukan website yang
+          anda inginkan
+        </p>
+        <i
+          ><span class="source"
+            ><a href="https://www.free-css.com/" target="blank"
+              >(Source Templates From : free-css.com)</a
+            ></span
+          ></i
+        >
+      </div>
 
-        <div class="content">
-            <ul>
-                <li class="list active" data-filter="all">All</li>
-                <li class="list" data-filter="bussiness">Bussiness</li>
-                <li class="list" data-filter="food">Culiner</li>
-                <li class="list" data-filter="lifestyle">Lifestyle</li>
-                <li class="list" data-filter="personal">Personal</li>
-                <li class="list" data-filter="tech">Technology</li>
-            </ul>
-            <div class="template">
-                <div class="itemBox bussiness"><img src="img/template/bussines1.PNG"></div>
-                <div class="itemBox food"><img src="img/template/food1.PNG"></div>
-                <div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
-                <div class="itemBox personal"><img src="img/template/personal1.PNG">
-                    <span class="code-template">T-01</span>
-                    <div class="live-demo">
-                        <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page272/tea-flower/"
-                            target="blank">Live Demo</a>
-                    </div>
-                </div>
-                <div class="itemBox tech"><img src="img/template/tech1.PNG"></div>
-
-                <div class="itemBox bussiness"><img src="img/template/bussines2.PNG"></div>
-                <div class="itemBox food"><img src="img/template/food2.PNG"></div>
-                <div class="itemBox lifestyle"><img src="img/template/lifestyle2.PNG"></div>
-                <div class="itemBox personal"><img src="img/template/personal2.PNG"></div>
-                <div class="itemBox tech"><img src="img/template/tech2.PNG"></div>
-
-                <div class="itemBox bussiness"><img src="img/template/bussines3.PNG"></div>
-                <div class="itemBox food"><img src="img/template/food3.PNG"></div>
-                <!-- <div class="itemBox lifestyle"><img src="img/template/lifestyle.PNG"></div> -->
-                <!-- <div class="itemBox personal"><img src="img/template/personal1.PNG"></div> -->
-                <div class="itemBox tech"><img src="img/template/tech3.PNG"></div>
-
-                <div class="itemBox bussiness"><img src="img/template/bussines4.PNG"></div>
-                <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
-				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
-				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
-				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
-
-                <div class="itemBox bussiness"><img src="img/template/bussines5.PNG"></div>
-                <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
-				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
-				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
-				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
-
-                <div class="itemBox bussiness"><img src="img/template/bussines6.PNG"></div>
-                <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
-				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
-				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
-				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
-
-                <div class="itemBox bussiness"><img src="img/template/bussines7.PNG"></div>
-                <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
-				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
-				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
-				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
+      <div class="content">
+        <ul>
+          <li class="list active" data-filter="all">All</li>
+          <li class="list" data-filter="bussiness">Bussiness</li>
+          <li class="list" data-filter="food">Culiner</li>
+          <li class="list" data-filter="lifestyle">Lifestyle</li>
+          <li class="list" data-filter="personal">Personal</li>
+          <li class="list" data-filter="tech">Technology</li>
+        </ul>
+        <div class="template">
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines1.PNG" />
+          </div>
+          <div class="itemBox food"><img src="img/template/food1.PNG" /></div>
+          <div class="itemBox lifestyle">
+            <img src="img/template/lifestyle1.PNG" />
+          </div>
+          <div class="itemBox personal">
+            <img src="img/template/personal1.PNG" />
+            <span class="code-template">T-01</span>
+            <div class="live-demo">
+              <a
+                href="https://www.free-css.com/assets/files/free-css-templates/preview/page272/tea-flower/"
+                target="blank"
+                >Live Demo</a
+              >
             </div>
+          </div>
+          <div class="itemBox tech"><img src="img/template/tech1.PNG" /></div>
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines2.PNG" />
+          </div>
+          <div class="itemBox food"><img src="img/template/food2.PNG" /></div>
+          <div class="itemBox lifestyle">
+            <img src="img/template/lifestyle2.PNG" />
+          </div>
+          <div class="itemBox personal">
+            <img src="img/template/personal2.PNG" />
+          </div>
+          <div class="itemBox tech"><img src="img/template/tech2.PNG" /></div>
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines3.PNG" />
+          </div>
+          <div class="itemBox food"><img src="img/template/food3.PNG" /></div>
+          <!-- <div class="itemBox lifestyle"><img src="img/template/lifestyle.PNG"></div> -->
+          <!-- <div class="itemBox personal"><img src="img/template/personal1.PNG"></div> -->
+          <div class="itemBox tech"><img src="img/template/tech3.PNG" /></div>
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines4.PNG" />
+          </div>
+          <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
+				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
+				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
+				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines5.PNG" />
+          </div>
+          <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
+				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
+				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
+				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines6.PNG" />
+          </div>
+          <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
+				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
+				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
+				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
+
+          <div class="itemBox bussiness">
+            <img src="img/template/bussines7.PNG" />
+          </div>
+          <!-- <div class="itemBox food"><img src="img/template/food1.PNG"></div>
+				<div class="itemBox lifestyle"><img src="img/template/lifestyle1.PNG"></div>
+				<div class="itemBox personal"><img src="img/template/personal1.PNG"></div>
+				<div class="itemBox tech"><img src="img/template/tech1.PNG"></div> -->
         </div>
+      </div>
     </section>
 
     <!----------------Page Package------------------>
     <section class="package" id="package">
-        <div class="title" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="titleText" style="font-weight: 500; letter-spacing: 1px;"><span
-                    style="color: #31a0df;">P</span>rice List</h2>
-            <p>Tentukan paket harga terbaik untuk website anda </p>
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="titleText" style="font-weight: 500; letter-spacing: 1px">
+          <span style="color: #31a0df">P</span>rice List
+        </h2>
+        <p>Tentukan paket harga terbaik untuk website anda</p>
+      </div>
+      <div class="tab-container">
+        <div class="tab">
+          <div class="tab-header">
+            <div class="name">
+              <h1>seikhlasnya</h1>
+            </div>
+            <div class="price">
+              <span class="startFrom">Cukup Bayar</span>
+              <h3>Berapapun</h3>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="tab-list">
+            <ul class="list">
+              <li>Desain Website Yang Menarik</li>
+              <li>Website yang responsive</li>
+              <li>Mengubah Gambar Dan Text</li>
+              <li>Source Code File</li>
+              <li>Lama Pengerjaan 1-2 hari</li>
+              <li class="line"><del>Hosting and Domain</del></li>
+              <li class="line"><del>Kustomisasi Fungsi Website</del></li>
+              <li class="line"><del>Akses Database</del></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs"
+            >Pesan Sekarang</a
+          >
         </div>
-        <div class="tab-container">
-            <div class="tab">
-                <div class="tab-header">
-                    <div class="name">
-                        <h1>seikhlasnya</h1>
-                    </div>
-                    <div class="price">
-                        <span class="startFrom">Cukup Bayar</span>
-                        <h3>Berapapun</h3>
-                    </div>
-                </div>
-                <div class="hr"></div>
-                <div class="tab-list">
-                    <ul class="list">
-                        <li>Desain Website Yang Menarik</li>
-                        <li>Website yang responsive</li>
-                        <li>Mengubah Gambar Dan Text</li>
-                        <li>Source Code File</li>
-                        <li>Lama Pengerjaan 1-2 hari</li>
-                        <li class="line"><del>Hosting and Domain</del></li>
-                        <li class="line"><del>Kustomisasi Fungsi Website</del></li>
-                        <li class="line"><del>Akses Database</del></li>
-                    </ul>
-                </div>
-                <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs">Pesan
-                    Sekarang</a>
-            </div>
 
-            <div class="tab">
-                <div class="tab-header">
-                    <div class="name">
-                        <h1>sewajarnya</h1>
-                    </div>
-                    <div class="price">
-                        <span class="startFrom">Harga Mulai Dari</span>
-                        <div class="price-from">
-                            <span class="idr">Rp</span>
-                            <h2>700k</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="hr"></div>
-                <div class="tab-list">
-                    <ul class="list">
-                        <li>Bebas Pilih Desain / Desain Kustom</li>
-                        <li>Kostumisasi Fungsi Website</li>
-                        <li>Website yang responsive</li>
-                        <li>Hosting Dan Domain</li>
-                        <li>5 Page Website</li>
-                        <li>Akses Database</li>
-                        <li>Lama Pengerjaan 3-7 hari</li>
-                        <li class="line"><del>Payment Online</del></li>
-                    </ul>
-                </div>
-                <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs">Pesan
-                    Sekarang</a>
+        <div class="tab">
+          <div class="tab-header">
+            <div class="name">
+              <h1>sewajarnya</h1>
             </div>
+            <div class="price">
+              <span class="startFrom">Harga Mulai Dari</span>
+              <div class="price-from">
+                <span class="idr">Rp</span>
+                <h2>700k</h2>
+              </div>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="tab-list">
+            <ul class="list">
+              <li>Bebas Pilih Desain / Desain Kustom</li>
+              <li>Kostumisasi Fungsi Website</li>
+              <li>Website yang responsive</li>
+              <li>Hosting Dan Domain</li>
+              <li>5 Page Website</li>
+              <li>Akses Database</li>
+              <li>Lama Pengerjaan 3-7 hari</li>
+              <li class="line"><del>Payment Online</del></li>
+            </ul>
+          </div>
+          <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs"
+            >Pesan Sekarang</a
+          >
+        </div>
 
-            <!-- <div class="tab">
+        <!-- <div class="tab">
 				<div class="tab-header">
 					<div class="name">
 						<h1>sebagusnya</h1>
@@ -316,7 +490,7 @@
 				</ul>
 				<a href="#contact" class="btn-subs">Pesan Sekarang</a>
 			</div> -->
-        </div>
+      </div>
     </section>
 
     <!-- <section class="package" id="package">
@@ -357,127 +531,157 @@
 
     <!----------------Page FAQ------------------>
     <section class="faq" id="faq">
-        <div class="title" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="titleText"><span>F</span>AQ</h2>
-            <p>Mungkin ini dapat menjawab pertanyaan anda</p>
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="titleText"><span>F</span>AQ</h2>
+        <p>Mungkin ini dapat menjawab pertanyaan anda</p>
+      </div>
+      <div class="accordian">
+        <div class="card">
+          <div class="card-header">
+            <h3>Apa Itu Website ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body active">
+            <p>
+              Website adalah kumpulan halaman dalam suatu domain yang memuat
+              tentang berbagai informasi agar dapat dibaca dan dilihat oleh
+              pengguna internet melalui sebuah mesin pencari. Informasi yang
+              dapat dimuat dalam sebuah website umumnya berisi mengenai konten
+              gambar, ilustrasi, video, dan teks untuk berbagai macam
+              kepentingan.
+            </p>
+          </div>
         </div>
-        <div class="accordian">
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apa Itu Website ? </h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body active">
-                    <p>Website adalah kumpulan halaman dalam suatu domain yang memuat tentang berbagai informasi agar
-                        dapat dibaca dan dilihat oleh pengguna internet melalui sebuah mesin pencari. Informasi yang
-                        dapat dimuat dalam sebuah website umumnya berisi
-                        mengenai konten gambar, ilustrasi, video, dan teks untuk berbagai macam kepentingan.</p>
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="card-header">
-                    <h3>Mengapa Harus Memiliki Website ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Karena website sangatlah berguna untuk memperkenalkan diri atau usaha, agar dapat dengan mudah
-                        ditemukan serta dikunjungi oleh pengguna internet yang ada di seluruh dunia. Tentunya akan
-                        sangat bermanfaat bagi UMKM terkhususnya di Indonesia,
-                        agar mempermudah kita dalam menjangkau target pemasaran ke segala penjuru di Indonesia dan
-                        bahkan di seluruh dunia.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apa Itu Website Responsive ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Website Responsive merupakan sebuah keadaan pada tampilan halaman website yang akan melakukan
-                        sebuah penyesuaian, sesuai dengan perangkat yang anda/pengunjung gunakan saat mengunjungi
-                        website tersebut.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apa Itu Hosting Dan Domain ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p><b>Hosting</b> merupakan sebuah ruang penyimpanan data yang sangat besar atau bisa disebut juga
-                        sebagai file pada komputer yang diupload ke dalam sebuah server.<br>
-                        <b>Domain</b> merupakan komponen yang berfungsi memberi pengarahan untuk menuju ke alamat server
-                        hosting atau IP address, pengelolaan nama domain sendiri berada di bawah pengaturan instansi
-                        regulasi domain global atau ICANN.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apakah Saya Akan Mendapatkan Akses Hosting Dan Domain ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Akses untuk Hosting dan Domain hanya tersedia pada pembelian paket <b>SEWAJARNYA</b> dan
-                        <b>SEBAGUSNYA</b>. Namun jika anda memilih paket <b>SEIKHLASNYA</b>, anda juga bisa mendapatkan
-                        akses Hosting dan Domain dengan hanya membayar biaya tambahan sebesar <b>Rp. 50.000</b>
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apakah Saya Boleh Meminta Revisi ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Yaa tentu, kami memberikan revisi pada pembuatan website sesuai dengan jumlah revisi yang kami
-                        berikan pada setiap paket pembelian. Untuk lebih jelasnya, dapat dilihat pada halaman <a
-                            href="#package" style="text-decoration: none; font-weight: bold; color: #000;">Price
-                            List</a> kami.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Apakah Saya Dapat Menggunakan Template Website Yang Saya Miliki ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Yaa tentu, silahkan hubungi kami apabila anda memiliki sebuah template website yang ingin anda
-                        gunakan untuk website anda.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Bagaimana Cara Saya Mengelola Website Saya Nantinya ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Kami akan memberikan petunjuk pada setiap source code yang akan kami berikan untuk anda, guna
-                        untuk mempermudah anda dalam mengelola website nantinya. Dan kami juga menyediakan layanan jasa
-                        maintenance untuk website anda, dengan cukup
-                        membayar <span style="font-weight: bold;">seikhlasnya</span> di tiap dilakukannya perubahan pada
-                        website.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h3>Bagaimana Cara Saya Untuk Melakukan Pesanan ?</h3>
-                    <span class="fa fa-chevron-down"></span>
-                </div>
-                <div class="card-body">
-                    <p>Dengan senang hati, Silahkan hubungi kami. Dapat melalui Whatsapp kami dan juga melalui halaman
-                        <a href="#contact" style="font-weight: bold; text-decoration: none; color: #000;">Contact
-                            Kami</a>
-                    </p>
-                </div>
-            </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Mengapa Harus Memiliki Website ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Karena website sangatlah berguna untuk memperkenalkan diri atau
+              usaha, agar dapat dengan mudah ditemukan serta dikunjungi oleh
+              pengguna internet yang ada di seluruh dunia. Tentunya akan sangat
+              bermanfaat bagi UMKM terkhususnya di Indonesia, agar mempermudah
+              kita dalam menjangkau target pemasaran ke segala penjuru di
+              Indonesia dan bahkan di seluruh dunia.
+            </p>
+          </div>
         </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Apa Itu Website Responsive ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Website Responsive merupakan sebuah keadaan pada tampilan halaman
+              website yang akan melakukan sebuah penyesuaian, sesuai dengan
+              perangkat yang anda/pengunjung gunakan saat mengunjungi website
+              tersebut.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Apa Itu Hosting Dan Domain ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              <b>Hosting</b> merupakan sebuah ruang penyimpanan data yang sangat
+              besar atau bisa disebut juga sebagai file pada komputer yang
+              diupload ke dalam sebuah server.<br />
+              <b>Domain</b> merupakan komponen yang berfungsi memberi pengarahan
+              untuk menuju ke alamat server hosting atau IP address, pengelolaan
+              nama domain sendiri berada di bawah pengaturan instansi regulasi
+              domain global atau ICANN.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Apakah Saya Akan Mendapatkan Akses Hosting Dan Domain ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Akses untuk Hosting dan Domain hanya tersedia pada pembelian paket
+              <b>SEWAJARNYA</b> dan <b>SEBAGUSNYA</b>. Namun jika anda memilih
+              paket <b>SEIKHLASNYA</b>, anda juga bisa mendapatkan akses Hosting
+              dan Domain dengan hanya membayar biaya tambahan sebesar
+              <b>Rp. 50.000</b>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Apakah Saya Boleh Meminta Revisi ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Yaa tentu, kami memberikan revisi pada pembuatan website sesuai
+              dengan jumlah revisi yang kami berikan pada setiap paket
+              pembelian. Untuk lebih jelasnya, dapat dilihat pada halaman
+              <a
+                href="#package"
+                style="text-decoration: none; font-weight: bold; color: #000"
+                >Price List</a
+              >
+              kami.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>
+              Apakah Saya Dapat Menggunakan Template Website Yang Saya Miliki ?
+            </h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Yaa tentu, silahkan hubungi kami apabila anda memiliki sebuah
+              template website yang ingin anda gunakan untuk website anda.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Bagaimana Cara Saya Mengelola Website Saya Nantinya ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Kami akan memberikan petunjuk pada setiap source code yang akan
+              kami berikan untuk anda, guna untuk mempermudah anda dalam
+              mengelola website nantinya. Dan kami juga menyediakan layanan jasa
+              maintenance untuk website anda, dengan cukup membayar
+              <span style="font-weight: bold">seikhlasnya</span> di tiap
+              dilakukannya perubahan pada website.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3>Bagaimana Cara Saya Untuk Melakukan Pesanan ?</h3>
+            <span class="fa fa-chevron-down"></span>
+          </div>
+          <div class="card-body">
+            <p>
+              Dengan senang hati, Silahkan hubungi kami. Dapat melalui Whatsapp
+              kami dan juga melalui halaman
+              <a
+                href="#contact"
+                style="font-weight: bold; text-decoration: none; color: #000"
+                >Contact Kami</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!----------------Page Contact------------------>
@@ -528,29 +732,52 @@
 	</section> -->
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <a href="#home" class="footer-logo" style="font-family: 'Permanent Marker', cursive;"><span
-                            style="margin-right: 2px;">R</span>e<span>V</span>zy</a>
-                    <p class="footer-about">Adalah sekumpulan anak muda yang mencoba untuk berinovasi menciptakan sebuah
-                        peluang usaha dalam bidang jasa pembuatan serta pengelolaan pada website. Kami akan memberikan
-                        experience yang menarik dengan memberikan sentuhan responsive
-                        terhadap tampilan website anda</p>
-                </div>
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <a
+              href="#home"
+              class="footer-logo"
+              style="font-family: 'Permanent Marker', cursive"
+              ><span style="margin-right: 2px">R</span>e<span>V</span>zy</a
+            >
+            <p class="footer-about">
+              Adalah sekumpulan anak muda yang mencoba untuk berinovasi
+              menciptakan sebuah peluang usaha dalam bidang jasa pembuatan serta
+              pengelolaan pada website. Kami akan memberikan experience yang
+              menarik dengan memberikan sentuhan responsive terhadap tampilan
+              website anda
+            </p>
+          </div>
 
-                <div class="footer-col hubungi-kami">
-                    <h4>Hubungi Kami</h4>
-                    <ul>
-                        <li><a href="#"><i class="fa-solid fa-location-dot" style="margin-right: 12px;"></i> Vila Taman
-                                Kartini Bekasi</a></li>
-                        <li><a href="#"><i class="fa-solid fa-envelope"></i> revzy@gmail.com</a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=+62895321214903" target="blank"><i
-                                    class="fa-brands fa-whatsapp"></i> +62 895-3212-14903</a></li>
-                    </ul>
-                </div>
+          <div class="footer-col hubungi-kami">
+            <h4>Hubungi Kami</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i
+                    class="fa-solid fa-location-dot"
+                    style="margin-right: 12px"
+                  ></i>
+                  Vila Taman Kartini Bekasi</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-envelope"></i> revzy@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+62895321214903"
+                  target="blank"
+                  ><i class="fa-brands fa-whatsapp"></i> +62 895-3212-14903</a
+                >
+              </li>
+            </ul>
+          </div>
 
-                <!-- <div class="footer-col" style="margin-top: 10px;">
+          <!-- <div class="footer-col" style="margin-top: 10px;">
 					<h4>Follow Kami</h4>
 					<div class="social-links">
 						<a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -560,172 +787,217 @@
 					</div>
 				</div> -->
 
-                <div class="footer-col pesan">
-                    <h4>Jika Ada Pertanyaan</h4>
-                    <form action="#" name="revzy-contact-form">
-                        <div class="alert alert-success alert-dismissible fade show d-none alert-form" role="alert">
-                            <strong>Terima Kasih!</strong> Pesan anda sudah kami terima
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                        <div class="dbl-field">
-                            <div class="field">
-                                <input type="text" name="nama" placeholder="Masukkan nama anda" required>
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div class="field">
-                                <input type="email" name="email" placeholder="Masukkan email anda" required>
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="field">
-                                <input type="number" name="telepon" placeholder="Masukkan nomor telepon anda" required>
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                        </div>
-                        <div class="message">
-                            <textarea placeholder="Tuliskan pesan anda" name="pesan"></textarea>
-                            <i class="fas fa-comment-alt"></i>
-                        </div>
-                        <div class="buttonSubmit">
-                            <button type="submit" class="btn-kirim">Kirim Pesan</button>
-                            <button class="btn btn-primary btn-loading d-none" type="button" disabled
-                                style="margin-left: 5px;">
-                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                Loading...
-                            </button>
-                        </div>
-                    </form>
+          <div class="footer-col pesan">
+            <h4>Jika Ada Pertanyaan</h4>
+            <form action="#" name="revzy-contact-form">
+              <div
+                class="alert alert-success alert-dismissible fade show d-none alert-form"
+                role="alert"
+              >
+                <strong>Terima Kasih!</strong> Pesan anda sudah kami terima
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="dbl-field">
+                <div class="field">
+                  <input
+                    type="text"
+                    name="nama"
+                    placeholder="Masukkan nama anda"
+                    required
+                  />
+                  <i class="fas fa-user"></i>
                 </div>
-
-            </div>
+                <div class="field">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Masukkan email anda"
+                    required
+                  />
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="field">
+                  <input
+                    type="number"
+                    name="telepon"
+                    placeholder="Masukkan nomor telepon anda"
+                    required
+                  />
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+              </div>
+              <div class="message">
+                <textarea
+                  placeholder="Tuliskan pesan anda"
+                  name="pesan"
+                ></textarea>
+                <i class="fas fa-comment-alt"></i>
+              </div>
+              <div class="buttonSubmit">
+                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+                <button
+                  class="btn btn-primary btn-loading d-none"
+                  type="button"
+                  disabled
+                  style="margin-left: 5px"
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </footer>
     <div class="copyrightText">
-        <p>Copyright 2021 <a href="#">Ranger Biru</a>. All Right Reserved</p>
-        <div class="social-links">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-solid fa-globe"></i></a>
-        </div>
+      <p>Copyright 2021 <a href="#">Ranger Biru</a>. All Right Reserved</p>
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-solid fa-globe"></i></a>
+      </div>
     </div>
 
     <!--Animation AOS-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        const tabContainer = document.querySelectorAll('.tab');
-        const whyCol = document.querySelectorAll('.why-col');
+      const tabContainer = document.querySelectorAll(".tab");
+      const whyCol = document.querySelectorAll(".why-col");
 
-        tabContainer.forEach((package, i) => {
-            package.dataset.aos = 'fade-up';
-            package.dataset.aosDelay = i * 200;
-            package.dataset.aosDuration = 1000;
-        })
+      tabContainer.forEach((package, i) => {
+        package.dataset.aos = "fade-up";
+        package.dataset.aosDelay = i * 200;
+        package.dataset.aosDuration = 1000;
+      });
 
-        AOS.init({
-            once: true,
-            disable: 'phone'
-        });
+      AOS.init({
+        once: true,
+        disable: "phone",
+      });
     </script>
 
     <!---Script Navbar---->
     <script type="text/javascript">
-        window.addEventListener('scroll', function () {
-            const header = document.querySelector('header');
-            header.classList.toggle("sticky", window.scrollY > 0);
-        });
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
 
-        function toggleMenu() {
-            const menuToggle = document.querySelector('.menuToggle');
-            const navigation = document.querySelector('.navigation');
-            menuToggle.classList.toggle('active');
-            navigation.classList.toggle('active');
-        }
+      function toggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
     </script>
 
     <!---Script Filter List Template----->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.list').click(function () {
-                const value = $(this).attr('data-filter');
-                if (value == 'all') {
-                    $('.itemBox').show('1000');
-                } else {
-                    $('.itemBox').not('.' + value).hide('1000');
-                    $('.itemBox').filter('.' + value).show('1000');
-                }
-            })
+      $(document).ready(function () {
+        $(".list").click(function () {
+          const value = $(this).attr("data-filter");
+          if (value == "all") {
+            $(".itemBox").show("1000");
+          } else {
+            $(".itemBox")
+              .not("." + value)
+              .hide("1000");
+            $(".itemBox")
+              .filter("." + value)
+              .show("1000");
+          }
+        });
 
-            $('.list').click(function () {
-                $(this).addClass('active').siblings().removeClass('active');
-            })
-        })
+        $(".list").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      });
     </script>
 
     <!----Script Accordian (FAQ)---->
     <script>
-        const accordion = document.getElementsByClassName('contentBx');
+      const accordion = document.getElementsByClassName("contentBx");
 
-        for (i = 0; i < accordion.length; i++) {
-            accordion[i].addEventListener('click', function () {
-                this.classList.toggle('active')
-            })
-        }
+      for (i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+        });
+      }
     </script>
     <script>
-        $(document).ready(function () {
-            $(".card-header").click(function () {
-                // self clicking close
-                if ($(this).next(".card-body").hasClass("active")) {
-                    $(this).next(".card-body").removeClass("active").slideUp()
-                    $(this).children("span").removeClass("fa-chevron-up").addClass("fa-chevron-down")
-                } else {
-                    $(".card .card-body").removeClass("active").slideUp()
-                    $(".card .card-header span").removeClass("fa-chevron-up").addClass(
-                        "fa-chevron-down");
-                    $(this).next(".card-body").addClass("active").slideDown()
-                    $(this).children("span").removeClass("fa-chevron-down").addClass("fa-chevron-up")
-                }
-            })
-        })
+      $(document).ready(function () {
+        $(".card-header").click(function () {
+          // self clicking close
+          if ($(this).next(".card-body").hasClass("active")) {
+            $(this).next(".card-body").removeClass("active").slideUp();
+            $(this)
+              .children("span")
+              .removeClass("fa-chevron-up")
+              .addClass("fa-chevron-down");
+          } else {
+            $(".card .card-body").removeClass("active").slideUp();
+            $(".card .card-header span")
+              .removeClass("fa-chevron-up")
+              .addClass("fa-chevron-down");
+            $(this).next(".card-body").addClass("active").slideDown();
+            $(this)
+              .children("span")
+              .removeClass("fa-chevron-down")
+              .addClass("fa-chevron-up");
+          }
+        });
+      });
     </script>
 
     <!--Kirim Data Form Ke Google Sheets --->
     <script>
-        const scriptURL =
-            'https://script.google.com/macros/s/AKfycbzcDHDlW9enLlW8BM2-RMOvq8l_uPYS-17JlxXUMcTICSxeFFgl8ooZbyozCvFoDcmDzA/exec'
-        const form = document.forms['revzy-contact-form']
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const alertForm = document.querySelector('.alert-form');
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzcDHDlW9enLlW8BM2-RMOvq8l_uPYS-17JlxXUMcTICSxeFFgl8ooZbyozCvFoDcmDzA/exec";
+      const form = document.forms["revzy-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const alertForm = document.querySelector(".alert-form");
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
 
-            //tampilkan button loading, hilangkan button kirim
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
+        //tampilkan button loading, hilangkan button kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
 
-            fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(form)
-            })
-                .then(response => {
-                    //tampilkan button kirim, hilangkan button loading
-                    btnLoading.classList.toggle('d-none');
-                    btnKirim.classList.toggle('d-none');
-                    //tampilkan Alert
-                    alertForm.classList.toggle('d-none');
-                    //reset Form
-                    form.reset();
-                    console.log('Success!', response)
-                })
-                .catch(error => console.error('Error!', error.message))
+        fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form),
         })
+          .then((response) => {
+            //tampilkan button kirim, hilangkan button loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            //tampilkan Alert
+            alertForm.classList.toggle("d-none");
+            //reset Form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
     <!---Finish--->
-
-</body>
-
+  </body>
 </html>
