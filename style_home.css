@@ -901,7 +901,8 @@ ul {
 }
 
 form .field input,
-form .message textarea {
+form .message textarea,
+form .field select {
     width: 380px;
     height: 42px;
     outline: none;
@@ -913,12 +914,14 @@ form .message textarea {
 }
 
 form .field input::placeholder,
-form .message textarea::placeholder {
+form .message textarea::placeholder,
+form .field select::placeholder {
     color: #bfbfbf;
     font-size: 12px;
 }
 
 form .field input:focus,
+form .field select:focus,
 form .message textarea:focus {
     border: 2px solid #31a0df;
     transition: .1s;
@@ -926,6 +929,7 @@ form .message textarea:focus {
 }
 
 form .field input:focus~i,
+form .field select:focus~i,
 form .message textarea:focus~i {
     color: #31a0df;
 }
