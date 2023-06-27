@@ -53,7 +53,7 @@ p {
 }
 
 .btnKu {
-    font-size: 1em;
+    font-size: 14px;
     color: #fff;
     background: #31A0DF;
     display: inline-block;
@@ -62,7 +62,7 @@ p {
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.3s;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 .btnKu:hover {
@@ -135,12 +135,11 @@ header .navigation li a {
 
 header.sticky .navigation li a {
     color: #111;
+    font-size: 14px;
 }
 
 header .navigation li a:hover {
-    background: #31A0DF;
-    color: #fff;
-    padding: 5px 10px;
+    color: #31A0DF;
     transition: .3s;
     border-radius: 3px;
 }
@@ -225,11 +224,11 @@ section {
 .project .content ul li {
     list-style: none;
     background: rgb(211, 211, 211);
-    padding: 6px 15px;
+    padding: 6px 18px;
     margin: 5px;
     letter-spacing: 1px;
-    font-size: 14px;
-    border-radius: 3px;
+    font-size: 13px;
+    border-radius: 50px;
     transition: .3s;
     cursor: pointer;
 }
@@ -284,19 +283,20 @@ section {
     align-items: center;
 }
 
-.itemBox .live-demo a {
+.itemBox .live-demo a, .itemBox .live-demo p {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 20px;
+    font-size: 14px;
 }
 
 .code-template {
     position: absolute;
     color: #fff;
     font-weight: 600;
-    right: 0;
+    right: -0.5px;
     font-size: 14px;
     padding: 5px;
     background: #31A0DF;
@@ -368,7 +368,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .why-col {
@@ -671,7 +671,7 @@ section {
 }
 
 .btn-subs {
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     background: #31A0DF;
     display: inline-block;
@@ -679,7 +679,7 @@ section {
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.3s;
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 .btn-subs:hover {
@@ -971,8 +971,8 @@ form .buttonSubmit {
     border: none;
     color: #fff;
     background: #31a0df;
-    padding: 9px 12px;
-    border-radius: 3px;
+    padding: 8px 18px;
+    border-radius: 50px;
     cursor: pointer;
     transition: .3s;
     margin-top: -15px;
