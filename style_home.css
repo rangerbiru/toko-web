@@ -135,7 +135,7 @@ header .navigation li a {
 
 header.sticky .navigation li a {
     color: #111;
-    font-size: 14px;
+    font-size: 1.5em;
 }
 
 header .navigation li a:hover {
