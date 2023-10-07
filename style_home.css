@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -76,8 +77,8 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
-    z-index: 10000;
+    padding: 30px 80px;
+    z-index: 150;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +87,7 @@ header {
 
 header.sticky {
     background: #fff;
-    padding: 5px 100px;
+    padding: 7px 80px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
@@ -135,7 +136,6 @@ header .navigation li a {
 
 header.sticky .navigation li a {
     color: #111;
-    font-size: 1.5em;
 }
 
 header .navigation li a:hover {
@@ -145,7 +145,7 @@ header .navigation li a:hover {
 }
 
 section {
-    padding: 100px;
+    padding: 50px;
 }
 
 .row {
@@ -211,6 +211,7 @@ section {
     transition: .3s;
     font-size: 14px;
 }
+
 .source a:hover {
     color: #31A0DF;
 }
@@ -283,7 +284,8 @@ section {
     align-items: center;
 }
 
-.itemBox .live-demo a, .itemBox .live-demo p {
+.itemBox .live-demo a,
+.itemBox .live-demo p {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
@@ -308,6 +310,11 @@ section {
     visibility: visible;
     opacity: 1;
     top: 0%;
+}
+
+.gallery-fancybox {
+    cursor: pointer;
+    z-index: 100;
 }
 
 .expert .content {
@@ -578,7 +585,7 @@ section {
     width: 350px;
     height: 600px;
     padding: 40px 32px;
-    margin: 20px;
+    margin: 20px 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -1033,13 +1040,16 @@ form .buttonSubmit {
         max-width: 100%;
         overflow-x: hidden;
     }
+
     header,
     header.sticky {
         padding: 10px 20px;
     }
+
     header .navigation {
         display: none;
     }
+
     header .navigation.active {
         width: 100%;
         height: calc(100% - 68px);
@@ -1052,17 +1062,21 @@ form .buttonSubmit {
         flex-direction: column;
         background: #fff;
     }
+
     header .navigation li {
         margin-left: 0;
         margin-top: 13px;
     }
+
     header .navigation li a {
         color: #111;
         font-size: 1.5em;
     }
+
     header .logo {
         margin-top: -6px;
     }
+
     .menuToggle {
         position: relative;
         width: 40px;
@@ -1073,52 +1087,66 @@ form .buttonSubmit {
         background-position: center;
         cursor: pointer;
     }
+
     .menuToggle.active {
         background: url(img/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
     }
+
     header.sticky .menuToggle {
         filter: invert(1);
     }
+
     section {
         padding: 55px 10px;
     }
+
     .banner .content h2 {
         font-size: 1.8em;
         color: #fff;
         margin-bottom: 18px;
     }
+
     .banner .content p {
         font-size: 1em;
     }
+
     .banner {
         background: url(img/expert1.jpg);
     }
+
     .row {
         flex-direction: column;
     }
+
     .row .col50 {
         position: relative;
         width: 100%;
     }
+
     .row .col50 .imgBx {
         height: 300px;
         margin-top: 20px;
     }
+
     .menu .content {
         margin-top: 20px;
     }
+
     .menu .content .box {
         margin: 10px;
     }
+
     .menu .content .box .imgBx {
         height: 260px;
     }
+
     .title {
         text-align: center;
     }
+
     .titleText {
         font-size: 1.8em;
         line-height: 1.5em;
@@ -1126,18 +1154,22 @@ form .buttonSubmit {
         margin-top: 40px;
         font-weight: 300;
     }
+
     .why-website {
         padding: 80px 20px;
     }
+
     .title h2 {
         font-size: 28px;
         font-weight: 700;
     }
+
     .why-row {
         justify-content: center;
         margin: 10px 0;
         flex-direction: column;
     }
+
     .why-row .why-col {
         width: 100%;
         margin: 10px 0;
@@ -1146,11 +1178,13 @@ form .buttonSubmit {
         background: #fff;
         border-radius: 5px;
     }
+
     .package .content .box {
         width: 340px;
         margin: 10px;
         padding: 20px;
     }
+
     /* .contactForm
 	{
 		padding: 35px 40px;
@@ -1162,52 +1196,65 @@ form .buttonSubmit {
         font-size: 0.9em;
         padding: 10px 15px;
     }
+
     .carousel-control-prev-icon {
         display: none;
     }
+
     .project {
         padding: 50px 20px;
     }
+
     .project .content ul {
         flex-wrap: wrap;
     }
+
     .project .content ul li {
         padding: 5px 15px;
     }
+
     .template .itemBox {
         width: 200px;
         height: 120px;
     }
+
     .basic-1 h2 {
         margin-bottom: 20px;
         margin-top: 60px;
     }
+
     .basic-1 .text-container p {
         hyphens: auto;
         margin: 0px -13px;
         text-align: justify;
     }
+
     .basic-1 .image-container .imgProfile {
         margin: 10px 0;
     }
+
     .tab {
         width: 100%;
         height: 100%;
     }
+
     .accordian {
         max-width: 95%;
     }
+
     .accordian .card .card-header {
         display: flex;
         align-items: center;
         padding: 14px 15px;
     }
+
     .accordian .card .card-header h3 {
         font-size: 14px;
         width: 85%;
         line-height: 22px;
         margin-right: auto;
     }
+
     .accordian .card .card-header span {
         right: 15px;
         padding-left: 6px;
@@ -1215,6 +1262,7 @@ form .buttonSubmit {
         right: 0;
         position: relative;
     }
+
     /* .contact {
 		min-height: 140vh;
 	}
@@ -1228,23 +1276,28 @@ form .buttonSubmit {
     .footer {
         padding: 20px 5px;
     }
+
     .footer-row {
         flex-direction: column;
     }
+
     .footer-col,
     .footer-col.hubungi-kami,
     .footer-col.pesan {
         width: 100%;
         margin: 15px 0;
     }
+
     form .field input,
     form .message textarea {
         width: 100%;
     }
+
     .copyrightText {
         padding: 15px 30px;
         flex-direction: column-reverse;
     }
+
     .social-links a {
         margin-bottom: 15px;
         margin-top: 10px;
@@ -1255,29 +1308,36 @@ form .buttonSubmit {
     .banner .content p {
         font-size: .9em;
     }
+
     .project {
         padding: 50px 20px;
     }
+
     .project .content ul {
         margin-left: -30px;
         flex-wrap: wrap;
         padding-left: 2rem;
     }
+
     .project .content ul li {
         padding: 5px 14px;
     }
+
     .template .itemBox {
         width: 400px;
         height: 140px;
         margin-top: 10px;
     }
+
     .wrapper .title {
         text-align: center;
     }
+
     .wrapper .hr {
         width: 30%;
         margin: -2px 0px 0px 0px;
     }
+
     .wrapper .titleText {
         font-size: 1.8em;
         line-height: 1.5em;
@@ -1285,22 +1345,28 @@ form .buttonSubmit {
         margin-top: 10px;
         font-weight: 300;
     }
+
     .wrapper p {
         margin: 0 12px;
     }
+
     .dbl-field .field {
         margin: 10px 0;
     }
+
     form .message {
         margin: 0px;
     }
+
     form .buttonSubmit {
         margin: 0px;
         flex-direction: column;
     }
+
     .buttonSubmit button {
         width: 100%;
     }
+
     .buttonSubmit span {
         text-align: center;
         margin: 20px 0;

@@ -38,6 +38,9 @@
     <!--CDN Font Awesome 6.0-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
+    <!-- FancyBox Gallery Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
         </script>
@@ -211,37 +214,51 @@
                     </div>
                 </div> -->
 
-                <div class="itemBox business">
-                    <img src="img/template/business1.png" alt="business1">
-                    <span class="code-template">B-01</span>
-                    <div class="live-demo">
-                        <p>Local Business</p>
+                <a data-fancybox="business" data-src="img/template/business1.png"
+                    data-caption="Website Template Untuk Bisnis (B-01)" class="gallery-fancybox">
+                    <div class="itemBox business">
+                        <img src="img/template/business1.png" alt="business1">
+                        <span class="code-template">B-01</span>
+                        <div class="live-demo">
+                            <p>Local Business</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="itemBox food">
-                    <img src="img/template/culiner1.png" alt="culiner1">
-                    <span class="code-template">C-01</span>
-                    <div class="live-demo">
-                        <p>Steaks & BBQ</p>
+                <a data-fancybox="culiner" data-src="img/template/culiner1.png"
+                    data-caption="Website Template Untuk Culiner (C-01)" class="gallery-fancybox">
+                    <div class="itemBox food">
+                        <img src="img/template/culiner1.png" alt="culiner1">
+                        <span class="code-template">C-01</span>
+                        <div class="live-demo">
+                            <p>Steaks & BBQ</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="itemBox personal">
-                    <img src="img/template/personal1.png" alt="personal1.png">
-                    <span class="code-template">P-01</span>
-                    <div class="live-demo">
-                        <p>Make Up Studio</p>
+                <a data-fancybox="personal" data-src="img/template/personal1.png"
+                    data-caption="Website Template Untuk Personal (P-01)" class="gallery-fancybox">
+                    <div class="itemBox personal">
+                        <img src="img/template/personal1.png" alt="personal1.png">
+                        <span class="code-template">P-01</span>
+                        <div class="live-demo">
+                            <p>Make Up Studio</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="itemBox business">
-                    <img src="img/template/business2.png" alt="business2">
-                    <span class="code-template">B-02</span>
-                    <div class="live-demo">
-                        <p>Consulting</p>
+                <a data-fancybox="business" data-src="img/template/business2.png"
+                    data-caption="Website Template Untuk Business (B-02)" class="gallery-fancybox">
+                    <div class="itemBox business">
+                        <img src="img/template/business2.png" alt="business2">
+                        <span class="code-template">B-02</span>
+                        <div class="live-demo">
+                            <p>Consulting</p>
+                        </div>
                     </div>
-                </div>
+                </a>
+
+
 
                 <div class="itemBox food">
                     <img src="img/template/culiner2.png" alt="culiner2">
@@ -350,7 +367,8 @@
                         <li class="line"><del>Akses Database</del></li>
                     </ul>
                 </div>
-                <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs">Pesan Sekarang</a>
+                <a href="https://wa.me/+62895321214903?text=Halo,%20saya%20ingin%20memesan%20untuk%20Paket%20Seikhlasnya."
+                    target="blank" class="btn-subs">Pesan Sekarang</a>
             </div>
 
             <div class="tab">
@@ -379,7 +397,8 @@
                         <li class="line"><del>Akses Database</del></li>
                     </ul>
                 </div>
-                <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs">Pesan Sekarang</a>
+                <a href="https://wa.me/+62895321214903?text=Halo,%20saya%20ingin%20memesan%20untuk%20Paket%20Sewajarnya."
+                    target="blank" class="btn-subs">Pesan Sekarang</a>
             </div>
 
             <div class="tab">
@@ -408,7 +427,8 @@
                         <li class="line"><del>Payment Online</del></li>
                     </ul>
                 </div>
-                <a href="https://wa.me/+6281317435630" target="blank" class="btn-subs">Pesan Sekarang</a>
+                <a href="https://wa.me/+62895321214903?text=Halo,%20saya%20ingin%20memesan%20untuk%20Paket%20Sebagusnya."
+                    target="blank" class="btn-subs">Pesan Sekarang</a>
             </div>
         </div>
     </section>
@@ -561,15 +581,16 @@
                     <h4>Hubungi Kami</h4>
                     <ul>
                         <li>
-                            <a href="#"><i class="fa-solid fa-location-dot" style="margin-right: 12px"></i>
-                                Vila Taman Kartini Bekasi</a>
+                            <a href="#"><i class="fa-solid fa-location-dot" style="margin-right: 12px"></i>Perum graha
+                                asri Blok S6 No 3</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-envelope"></i> revzy@gmail.com</a>
+                            <a href="#"><i class="fa-solid fa-envelope"></i> rangerbiru.id@gmail.com</a>
                         </li>
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone=+62895321214903" target="blank"><i
-                                    class="fa-brands fa-whatsapp"></i> +62 895-3212-14903</a>
+                            <a href="https://wa.me/+62895321214903?text=Halo,%20saya%20ingin%20memesan%20website%20disini%20:).%20Dapatkah%20saya%20bertanya%20terlebih%20dahulu?"
+                                target="blank"><i class="fa-brands fa-whatsapp"></i>
+                                +62 895-3212-14903</a>
                         </li>
                     </ul>
                 </div>
@@ -770,6 +791,13 @@
         });
     </script>
     <!---Finish--->
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox]'), {
+
+        }
+    </script>
 </body>
 
 </html>
